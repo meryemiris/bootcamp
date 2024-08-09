@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body style=" font-family: 'Inter', sans-serif; font-family: 'Open Sans', sans-serif; background-color: #F2F3F4; margin: 0; padding: 0;">
+  <header style="background-color: white; height: 70px">
+    <nav style=" display: flex; flex-direction: row; justify-content: space-between; max-width: 1200px; margin: auto; align-items: center; padding: 16px; ">
+      <span id="logo">
+        techcareer.net
+      </span>
+      <div id="nav-links" style=" display: flex; flex-direction: row; gap: 16px;"> <a href="./etkinlikler" class="nav-link" style="all: unset;">Etkinlikler</a>
+        <a href=" ./iş-ilanları" class="nav-link" style="all: unset;">İş İlanları</a>
+        <a href="./eğitimler" class="nav-link" style="all: unset;">Eğitimler</a>
+        <a href=" ./komunite" class="nav-link" style="all: unset;">Komünite</a>
+        <a href=" ./şirketler" class="nav-link" style="all: unset;">Şirketler</a>
+      </div>
+      <button type=" button" id="login" type="button" style="background-color: #02D076; border-radius: 10px; padding: 10px; border: none; color: white;">Giriş / Üye Ol</button>
+    </nav>
+  </header>
+  <main style=" display: flex; flex-direction: column; align-items: center; ">
+    <section id="hero" style="display: flex; flex-direction: column; align-items: center; margin: 8px;">
+      <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Fthy_hackathon_ideathon_ef67822e4c%2Fthy_hackathon_ideathon_ef67822e4c.png&w=1200&q=100" alt="hero section image" width="90%">
+    </section>
+    <section id="brands">
+      <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Freferences%2F22.png&w=256&q=100">
+      <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Freferences%2F1.png&w=256&q=100">
+      <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Freferences%2F11.png&w=256&q=100">
+      <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Freferences%2F10.png&w=256&q=100">
+    </section>
+    <section style="text-align: center; " id="etkinlikler">
+      <h1>Başvurunu Bekleyen Etkinlikler</h1>
+      <main style="display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1200px;">
+
+        <section id="etkinlik-card-1" style=" background-color:white; border: 1px solid #D8D8D8; display: flex; flex-direction: column; align-items: center; margin: 8px; padding: 16px; " class="etkinlik-card">
+          <main><img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Fthy_hackathon_ideathon_ef67822e4c%2Fthy_hackathon_ideathon_ef67822e4c.png&w=1200&q=100" alt="thy hackathon image" width="100%">
+            <h3 style="align-self: center;">Türk Hava Yolları TravelX Ideathon</h3>
+            <p>Dijital seyahat deneyimini ve havacılık sektörünü birlikte şekillendirmeye hazır...</p>
+            <span id="etkinlik-label" style="border: 1px solid black; background-color: azure; border-radius: 30px; font-size: small; padding: 5px;">Hackathon</span>
+          </main>
+          <footer style="margin: 12px; padding-top: 24px; display: grid; grid-template-columns: 1fr 1fr; width: 100%; border-top: 1px solid #D8D8D8;">
+            <div style="font-size: small; display: flex; flex-direction: column; text-align: start;">
+              <span style=" text-transform: uppercase;">Son Başvuru</span>
+              <strong>11.08.2024</strong>
+            </div>
+            <button type="button" style="width: 100%; background-color: #02D076; border-radius: 10px; padding: 10px; border: none; color: white;">Başvur</button>
+          </footer>
+        </section>
+        <section id="etkinlik-card-2" style=" background-color:white; border: 1px solid #D8D8D8; display: flex; flex-direction: column; align-items: center; margin: 8px; padding: 16px; " class="etkinlik-card">
+          <main><img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Fthy_hackathon_ideathon_ef67822e4c%2Fthy_hackathon_ideathon_ef67822e4c.png&w=1200&q=100" alt="thy hackathon image" width="100%">
+            <h3 style="align-self: center;">Türk Hava Yolları TravelX Ideathon</h3>
+            <p>Dijital seyahat deneyimini ve havacılık sektörünü birlikte şekillendirmeye hazır...</p>
+            <span id="etkinlik-label" style="border: 1px solid black; background-color: azure; border-radius: 30px; font-size: small; padding: 5px;">Hackathon</span>
+          </main>
+          <footer style="margin: 12px; padding-top: 24px; display: grid; grid-template-columns: 1fr 1fr; width: 100%; border-top: 1px solid #D8D8D8;">
+            <div style="font-size: small; display: flex; flex-direction: column; text-align: start;">
+              <span style=" text-transform: uppercase;">Son Başvuru</span>
+              <strong>11.08.2024</strong>
+            </div>
+            <button type="button" style="width: 100%; background-color: #02D076; border-radius: 10px; padding: 10px; border: none; color: white;">Başvur</button>
+          </footer>
+        </section>
+
+        <section id="etkinlik-card-3" style=" background-color:white; border: 1px solid #D8D8D8; display: flex; flex-direction: column; align-items: center; margin: 8px; padding: 16px; " class="etkinlik-card">
+          <main><img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Fthy_hackathon_ideathon_ef67822e4c%2Fthy_hackathon_ideathon_ef67822e4c.png&w=1200&q=100" alt="thy hackathon image" width="100%">
+            <h3 style="align-self: center;">Türk Hava Yolları TravelX Ideathon</h3>
+            <p>Dijital seyahat deneyimini ve havacılık sektörünü birlikte şekillendirmeye hazır...</p>
+            <span id="etkinlik-label" style="border: 1px solid black; background-color: azure; border-radius: 30px; font-size: small; padding: 5px;">Hackathon</span>
+          </main>
+          <footer style="margin: 12px; padding-top: 24px; display: grid; grid-template-columns: 1fr 1fr; width: 100%; border-top: 1px solid #D8D8D8;">
+            <div style="font-size: small; display: flex; flex-direction: column; text-align: start;">
+              <span style=" text-transform: uppercase;">Son Başvuru</span>
+              <strong>11.08.2024</strong>
+            </div>
+            <button type="button" style="width: 100%; background-color: #02D076; border-radius: 10px; padding: 10px; border: none; color: white;">Başvur</button>
+          </footer>
+        </section>
+
+
+      </main>
+      <button type="button" style="background-color: #02D076; border-radius: 10px; padding: 10px; border: none; color: white;">Tüm Etkinlikleri Gör</button>
+    </section>
+
+    <aside style="background-color: white; width: 100%;">
+      <div style="max-width: 1200px; margin: auto; padding: 16px;">
+        <h2>Neden Techcareer.net?</h2>
+        <div style=" display: flex; flex-direction: row; gap: 16px;">
+          <article>
+            <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon1.svg" alt="why tcn icon">
+            <h3>Ücretsiz etkinliklere katıl</h3>
+            <p>Yolun başındasın ama en güzel aşamasındasın! Sektörün için gereken tüm becerileri burada öğrenmeye ücretsiz etkinlikler ile başlayacaksın.</p>
+          </article>
+          <article>
+            <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon2.svg" alt="why tcn icon">
+            <h3>Kendini kanıtla</h3>
+            <p>Bootcamp, Hackathon ve Hiring Challenge etkinliklerine katılarak hem becerilerini geliştirecek hem de ödül kazanma fırsatı yakalayacaksın.</p>
+          </article>
+          <article>
+            <img src="https://www.techcareer.net/assets/images/infobar/why-tcn-icon2.svg" alt="why tcn icon">
+            <h3>İş fırsatı yakala</h3>
+            <p>Sektöründe lider teknoloji şirketleriyle tanışacak ve iş fırsatları yakalayacaksın.</p>
+          </article>
+        </div>
+      </div>
+    </aside>
+
+    <aside style=" width: 100%; background-color: #EFFFEB;  ">
+      <div style="display: flex; flex-direction: row; max-width: 1200px; margin:auto; padding: 16px;">
+        <div>
+          <h2>Kariyer Rehberi’yle Geliş</h2>
+          <h3 style="color: #02D076;"> Yeni teknoloji kariyerini seçmeye hazır mısın?</h3>
+          <p>Teknoloji alanında kariyer yapmak istiyor ancak hangi pozisyonu seçeceğini veya seçtiğin pozisyonda hangi adımlardan geçmen gerektiğini bilmiyorsan, Kariyer Rehberi ile en doğru yerdesin!</p>
+          <button style="background-color: #02D076;border-radius: 8cqmin; padding: 10px; border: none; color: white;">Hemen İncele</button>
+        </div>
+
+        <img style="justify-self: flex-end;" src="https://www.techcareer.net/assets/images/pages/careerGuide/common/cta-bg-desktop.svg" alt="kariyer rehberi CTA">
+      </div>
+    </aside>
+
+    <aside>
+      <h2>Bizi Katılımcılarımızdan Dinle</h2>
+      <div style="max-width: 1200px; margin: auto; display: flex; flex-direction: row; gap: 16px; margin-bottom: 12px;">
+        <article style=" background-color: white; padding: 16px; margin-bottom: 16px; ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla hic possimus eius mollitia sit! Dignissimos ex nesciunt asperiores est commodi maxime, laudantium quae ipsa alias, corrupti, expedita libero hic.
+        </article>
+        <article style=" background-color: white; padding: 16px; margin-bottom: 16px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla hic possimus eius mollitia sit! Dignissimos ex nesciunt asperiores est commodi maxime, laudantium quae ipsa alias, corrupti, expedita libero hic.
+        </article>
+      </div>
+
+      <button style="background-color: #02D076;border-radius: 8cqmin; padding: 10px; border: none; color: white;">Tüm Yorumları Gör</button>
+    </aside>
+
+    <aside style="background-color: white; width: 100%;">
+      <div style="max-width: 1200px; margin: auto; padding: 16px;">
+        <div style=" display: flex; flex-direction: row; gap: 16px;">
+          <article>
+            <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-bootcamp.svg" alt="Bootcamp icon">
+            <h2>Bootcamp</h2>
+            <p>Bootcamp etkinlikleri, yazılım teknolojileri, veri bilimi, ürün yönetimi gibi teknolojik konularda düzenlenir. Hem eğitim alabilir, hem de o alanda işe başlayabilecek kadar fazla bilgi ve donanım kazanabilirsin.</p>
+            <a style="color: #02D076; text-decoration: none;" href="#">Hemen Başvur</a>
+          </article>
+          <article>
+            <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-hackathon.svg" alt="Hackathon icon">
+            <h2>Hackathon</h2>
+
+            <p>Hackathon etkinliklerinde takımlar halinde veya bireysel olarak yarışacaksın. Etkinlik için belli bir zaman verilir ve yeni fikirler, yeni dijital ürünler üretmesi, sonra da bunları kodlaması istenir.</p>
+            <a style="color: #02D076; text-decoration: none;" href="#">Hemen Başvur</a>
+          </article>
+          <article>
+            <img src="https://www.techcareer.net/assets/images/eventsbar/eventsbar-hiring.svg" alt="Hiring Challenge icon ">
+            <h2>Hiring Challenge</h2>
+
+            <p>Hiring Challenge yarışmalarında Android, iOS, algoritma veya kod hatası gibi problemleri belirli bir zaman aralığı içerisinde çözmeye çalışacaksın. Bu yarışmalarda algoritma tasarımına, özgünlüğe ve kod kalitesine göre puan alırsın.</p>
+
+          </article>
+        </div>
+      </div>
+    </aside>
+
+
+    <section id="contact" style="display: flex; width: 100%; flex-direction: column; align-items: center; background-color: #293349; color: white; margin: 8px; text-align: center;">
+      <form style="padding: 16px; margin: 16px;">
+
+        <h2>Şirketiniz için Teknoloji yeteneği mi arıyorsunuz?</h2>
+        <h4>Birlikte etkinlik düzenlemek ve size ulaşmamız için şirket e-mail adresinizi girin! 🚀</h4>
+        <input style="width: 80%;  border-radius: 10px; padding: 16px;" placeholder="Şirket E-mail Adresiniz" type="text">
+        <button style="background-color: #02D076;position: relative; ; padding: 12px; left: -80px; border: none; border-radius: 6px;" type="submit">Gönder</button>
+      </form>
+
+    </section>
+  </main>
+  <footer style="height: 500px; margin: auto; max-width:1200px; text-align: center;">
+    <p>footer things here</p>
+  </footer>
+</body>
+
+</html>
